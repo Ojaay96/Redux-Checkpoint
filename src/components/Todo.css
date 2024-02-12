@@ -1,0 +1,30 @@
+.tasks-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  height: 60px;
+}
+
+.remove-button {
+  background-color: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.remove-button:hover {
+  background-color: grey;
+  transition: ease-in 0.3s;
+}
+
+.tasks-item {
+  font-size: larger;
+}
